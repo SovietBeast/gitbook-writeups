@@ -12,3 +12,16 @@ def cool_func()
 <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>Bloodhound screenshot </p></figcaption></figure>
 
 Yoooooo
+
+
+
+/
+
+```c
+void main(){
+
+return 1; // hehehehe 
+}
+```
+
+<img src="../.gitbook/assets/file.excalidraw.svg" alt="" class="gitbook-drawing">
