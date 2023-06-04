@@ -375,7 +375,7 @@ To certificate be vulnerable some specyfic flags need to be set:
 
 For detecting any vulnerable certificate template there is handy tool `Certify`&#x20;
 
-{% embed url="https://github.com/Flangvik/SharpCollection/tree/master/NetFramework_4.7_Any" %}
+{% @github-files/github-code-block url="https://github.com/Flangvik/SharpCollection/blob/master/NetFramework_4.7_Any/Certify.exe" %}
 
 ```
 
@@ -580,7 +580,7 @@ With certificate on the disk next we need `Rubeus` to interact with `Kerberos` a
 * `/certificate:` previously generated certificate fiel
 * `/getcredentials` print NTLM hash that can be used for PassTheHash attack&#x20;
 
-{% embed url="https://github.com/Flangvik/SharpCollection/tree/master/NetFramework_4.7_Any" %}
+{% embed url="https://github.com/Flangvik/SharpCollection/blob/master/NetFramework_4.7_Any/Rubeus.exe" %}
 
 ```
 *Evil-WinRM* PS C:\Users\Ryan.Cooper\Documents\asdf> .\rubues.exe asktgt /user:Administrator /certificate:cert.pfx /getcredentials
