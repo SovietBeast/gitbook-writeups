@@ -4,8 +4,11 @@
 
 ## 🖥 HackTheBox
 
+* [Windows](hackthebox/windows/README.md)
+  * [Escape](hackthebox/windows/escape.md)
+
 ## 🚩 CTFs
 
 * [HackTheBoo CTF 2022](ctfs/hacktheboo-ctf-2022/README.md)
-  * [Web Challenges](ctfs/hacktheboo-ctf-2022/web-challenges/README.md)
-    * [Web Evaluation Check](ctfs/hacktheboo-ctf-2022/web-challenges/web-evaluation-check.md)
+  * [Web](ctfs/hacktheboo-ctf-2022/web/README.md)
+    * [Web Evaluation Check](ctfs/hacktheboo-ctf-2022/web/web-evaluation-check.md)

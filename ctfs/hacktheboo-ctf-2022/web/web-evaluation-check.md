@@ -8,11 +8,11 @@ Challenge source code
 
 Application is a card game that allows user to flip 8 cards.
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Default view</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Default view</p></figcaption></figure>
 
 When HP bar is depleted game is ended.
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption><p>End screen</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>End screen</p></figcaption></figure>
 
 ## Source Code Review
 

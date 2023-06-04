@@ -5,4 +5,4 @@ coverY: 33
 
 # 👋 Welcome!
 
-So this is place whereI store my writeups and possibly some bad structured notes. and most likely some _funny_ cat pictures.
+So this is place where I store my writeups, some poorly structured notes and most likely some _funny_ cat pictures.
