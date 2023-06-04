@@ -357,6 +357,8 @@ This was indeed password for `ryan.cooper` user and this allowed for login in hi
 
 I have ran `winpeas` again but no luck there. Additionaly I gathered information about domain with `Sharphound` to analyze permissions and connections in Bloodhound but again no luck.&#x20;
 
+<figure><img src="../../.gitbook/assets/hacker-cat.webp" alt=""><figcaption><p>Me trying to figure out how to PE</p></figcaption></figure>
+
 But there is this trend in windows enviroment that switch for certificate authorization. There are many things that can go wrong e.g. certificate template with too wide permissions.&#x20;
 
 To certificate be vulnerable some specyfic flags need to be set:
@@ -365,9 +367,15 @@ To certificate be vulnerable some specyfic flags need to be set:
 * `Access Rights` needs to `Allows Enroll` to `NT AUTHORITY\Authenticated Users` this means any logged in user can request certificate
 * `pkiextendedkeyusage` needs to have set `Client Authentication` to allows impersonating another user
 
+{% embed url="https://www.ired.team/offensive-security-experiments/active-directory-kerberos-abuse/from-misconfigured-certificate-template-to-domain-admin" %}
+
+{% embed url="https://book.hacktricks.xyz/windows-hardening/active-directory-methodology/ad-certificates/domain-escalation" %}
+
 ### Vulnerable Certificate Template
 
 For detecting any vulnerable certificate template there is handy tool `Certify`&#x20;
+
+{% embed url="https://github.com/Flangvik/SharpCollection/tree/master/NetFramework_4.7_Any" %}
 
 ```
 
@@ -572,6 +580,8 @@ With certificate on the disk next we need `Rubeus` to interact with `Kerberos` a
 * `/certificate:` previously generated certificate fiel
 * `/getcredentials` print NTLM hash that can be used for PassTheHash attack&#x20;
 
+{% embed url="https://github.com/Flangvik/SharpCollection/tree/master/NetFramework_4.7_Any" %}
+
 ```
 *Evil-WinRM* PS C:\Users\Ryan.Cooper\Documents\asdf> .\rubues.exe asktgt /user:Administrator /certificate:cert.pfx /getcredentials
 
@@ -650,12 +660,4 @@ Hash obtained from `Rubeus` can be used for `PassTheHash` attack if there is NTL
 
 For this `evil-winrm` can be used with `-H` flag that takes NTLM hash
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption><p>Rooted box</p></figcaption></figure>
-
-
-
-{% embed url="https://github.com/Flangvik/SharpCollection/tree/master/NetFramework_4.7_Any" %}
-
-{% embed url="https://www.ired.team/offensive-security-experiments/active-directory-kerberos-abuse/from-misconfigured-certificate-template-to-domain-admin" %}
-
-{% embed url="https://book.hacktricks.xyz/windows-hardening/active-directory-methodology/ad-certificates/domain-escalation" %}
+<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption><p>Rooted box</p></figcaption></figure>
