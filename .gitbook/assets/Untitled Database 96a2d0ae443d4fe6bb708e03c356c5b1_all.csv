@@ -1,0 +1,4 @@
+﻿User,Password,Desc
+michelle,michelle,"SeedDMS, dms-pit.htb/seeddms51x/seeddms"
+seeddms,ied^ieY6xoquu,/var/www/html/seeddms51x/conf/settings.xml
+seeddms,seeddms,sqlite /home/www-data/seeddms51x/data/content.db

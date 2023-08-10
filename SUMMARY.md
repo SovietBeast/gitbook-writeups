@@ -6,6 +6,11 @@
 
 * [Windows](hackthebox/windows/README.md)
   * [Escape](hackthebox/windows/escape.md)
+* [Linux](hackthebox/linux/README.md)
+  * [Dynstr](hackthebox/linux/dynstr.md)
+  * [Cap](hackthebox/linux/cap.md)
+  * [Explore](hackthebox/linux/explore.md)
+  * [Pit](hackthebox/linux/pit.md)
 
 ## 🚩 CTFs
 
