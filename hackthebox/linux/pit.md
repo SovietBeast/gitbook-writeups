@@ -265,3 +265,5 @@ After running command `snmpwalk -v2c -c public 10.10.10.241 1` or `snmpwalk -v2c
 Generated ssh key is added to `/root/.ssh/authorized_keys` and allowed to login via `ssh`
 
 <figure><img src="../../.gitbook/assets/Pasted_image_20210517130445.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/hack-the-planet-hacker-cat.gif" alt=""><figcaption></figcaption></figure>
