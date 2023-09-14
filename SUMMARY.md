@@ -11,6 +11,7 @@
   * [Cap](hackthebox/linux/cap.md)
   * [Explore](hackthebox/linux/explore.md)
   * [Pit](hackthebox/linux/pit.md)
+  * [CozyHosting](hackthebox/linux/cozyhosting.md)
 
 ## 🚩 CTFs
 
