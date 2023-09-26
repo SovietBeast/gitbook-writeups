@@ -12,6 +12,7 @@
   * [Explore](hackthebox/linux/explore.md)
   * [Pit](hackthebox/linux/pit.md)
   * [CozyHosting](hackthebox/linux/cozyhosting.md)
+  * [Keeper](hackthebox/linux/keeper.md)
 
 ## 🚩 CTFs
 
