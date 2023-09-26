@@ -94,3 +94,5 @@ puttygen key -O private-openssh -o root.key
 This allowed for login to `root` account with converted key.
 
 <figure><img src="../../.gitbook/assets/Pasted image 20230926230927.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/ec0532d0a6db947f62f0daf02e8921d9.gif" alt=""><figcaption><p>Rooted box</p></figcaption></figure>
