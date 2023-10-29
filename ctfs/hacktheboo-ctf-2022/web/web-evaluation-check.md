@@ -166,7 +166,7 @@ print(result.get('result'))
 
 Executing this yeild great success! Script printing additianal `1` in terminal window.
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p>RCE!</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>RCE!</p></figcaption></figure>
 
 ## Exploitation
 

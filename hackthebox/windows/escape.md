@@ -333,7 +333,7 @@ Acquired credentials have permissions to conect via remote access.
 
 I have run `winpeas` but there is nothing special in there. So next step was manual enumeration.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>SQLServer directory</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>SQLServer directory</p></figcaption></figure>
 
 As there was nothing in home direcotry of `sql_svc` user and SQLServer is only one non-default directory (because of running MS SQL server) I started looking around. Only semi-interesting file is `ERRORLOG.BAK` Located at `C:\SQLServer\Logs`
 
