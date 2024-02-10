@@ -153,7 +153,7 @@ getting file \SQL Server Procedures.pdf of size 49551 as SQL Server Procedures.p
 
 This pdf contain some information about connecting to `SQL` database without `Active Directory` account.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Credentials for MS SQL</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Credentials for MS SQL</p></figcaption></figure>
 
 ### MS SQL
 
@@ -313,7 +313,7 @@ Responder is software that talk with most of the protocols it is focused on stea
 
 ### Getting hash
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p>sql_svc hash</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>sql_svc hash</p></figcaption></figure>
 
 I used hashcat to crack this password
 
@@ -333,7 +333,7 @@ Acquired credentials have permissions to conect via remote access.
 
 I have run `winpeas` but there is nothing special in there. So next step was manual enumeration.
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>SQLServer directory</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>SQLServer directory</p></figcaption></figure>
 
 As there was nothing in home direcotry of `sql_svc` user and SQLServer is only one non-default directory (because of running MS SQL server) I started looking around. Only semi-interesting file is `ERRORLOG.BAK` Located at `C:\SQLServer\Logs`
 
@@ -341,7 +341,7 @@ As there was nothing in home direcotry of `sql_svc` user and SQLServer is only o
 
 In there is password for user `ryan.cooper`&#x20;
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 Log states `Logon failed for user 'sequel.htb\Ryan.Cooper'. Reason: Password did not match that for the login provided. [CLIENT: 127.0.0.1]`
 

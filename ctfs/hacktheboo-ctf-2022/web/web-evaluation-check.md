@@ -8,11 +8,11 @@ Challenge source code
 
 Application is a card game that allows user to flip 8 cards.
 
-<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Default view</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>Default view</p></figcaption></figure>
 
 When HP bar is depleted game is ended.
 
-<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>End screen</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption><p>End screen</p></figcaption></figure>
 
 ## Source Code Review
 
@@ -147,7 +147,7 @@ print(result.get('result'))
 
 Unfortunately after executing, script returns `SyntaxError: Invalid Syntax` and result is equal to `result = 12 print(1) 100` so 12 is `current_health` and 100 is `attack_power`&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption><p>First try - invalid syntax</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>First try - invalid syntax</p></figcaption></figure>
 
 Python is capable of running inline code when next instruction are separated with semicolon `;`&#x20;
 
@@ -166,7 +166,7 @@ print(result.get('result'))
 
 Executing this yeild great success! Script printing additianal `1` in terminal window.
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>RCE!</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>RCE!</p></figcaption></figure>
 
 ## Exploitation
 
@@ -200,7 +200,7 @@ Sec-Fetch-Site: same-origin
 
 After sending this malicious request to application, server returns flag.
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption><p>Flag</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>Flag</p></figcaption></figure>
 
 ### Payload explanation
 

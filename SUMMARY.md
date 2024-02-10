@@ -27,6 +27,9 @@
     * [beep64](ctfs/fetch-the-flag-2023/warmup/beep64.md)
   * [Cryptography](ctfs/fetch-the-flag-2023/cryptography/README.md)
     * [S\_H](ctfs/fetch-the-flag-2023/cryptography/s\_h.md)
+* [0xL4ugh](ctfs/0xl4ugh/README.md)
+  * [Web](ctfs/0xl4ugh/web/README.md)
+    * [Ghazy Corp](ctfs/0xl4ugh/web/ghazy-corp.md)
 
 ## Random Notes
 
